@@ -31,5 +31,8 @@ public class AppNomina {
 
         System.out.println("\nLista de freelancers:");
         nomina.listarFreelancers();
+
+        System.out.println("\nComisiones de los vendedores:");
+        nomina.listarComisiones();
     }
 }

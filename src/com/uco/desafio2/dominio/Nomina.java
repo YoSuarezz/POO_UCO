@@ -34,4 +34,13 @@ public class Nomina {
             System.out.println(empleado.nombre + ": $" + empleado.calcularSalario());
         }
     }
+
+    public void listarComisiones() {
+        for (Empleado empleado : empleados) {
+            if (empleado instanceof Vendedor) {
+                System.out.println(empleado.nombre + ": $" + ((Vendedor) empleado).calcularComision());
+            }
+        }
+    }
+
 }
